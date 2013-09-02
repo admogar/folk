@@ -4,7 +4,7 @@
 
 \header {
     tagline=""
-    title = "Polca da Eva (Ievan Polkka)"
+    title = "Ievan Polkka (Polca da Eva)"
     subtitle = "Polca"
     composer = "Tradicional (Finlândia)"
     poet=""
