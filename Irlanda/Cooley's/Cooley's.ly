@@ -11,7 +11,7 @@
     }
 
 PartPOneVoiceOne =  \relative d' {
-    \tempo "Allegretto" 4=120
+    \tempo "Prestissimo" 4=250
     \clef "treble" \key g \major \numericTimeSignature\time 4/4 \partial
     8 d8 | % 1
     \repeat volta 2 {
