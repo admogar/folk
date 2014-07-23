@@ -30,7 +30,7 @@ PartPOneVoiceOne =  \relative c' {
             c4. g'8 }
         } | \barNumberCheck #10
     g8 [ g8 ] f8 [ g8 ] | % 11
-    e8 c4 g'8 \break | % 12
+    e8 c4 g'8  | % 12
     g4 f8 [ g8 ] | % 13
     e4. g8 | % 14
     g8 [ g8 ] f8 [ g8 ] | % 15
@@ -40,7 +40,7 @@ PartPOneVoiceOne =  \relative c' {
     g8 [ g8 ] f8 [ g8 ] | % 19
     e4. g8 | \barNumberCheck #20
     g8 [ g8 ] f8 [ g8 ] | % 21
-    e4. g8 \break | % 22
+    e4. g8  | % 22
     g8 [ g8 ] f8 [ g8 ] | % 23
     e8 c4 d8 | % 24
     e4 d8 [ d8 ] | % 25
