@@ -3,17 +3,14 @@
 % automatically converted by musicxml2ly from Dança do linho.xml
 
 \header {
-    tagline=""
+    tagline=##f
     title = "Dança do linho"
     subtitle = "Moinheira"
     composer = "Tradicional (Galiza)"
-    poet=""
     }
 
 PartPOneVoiceOne =  \relative g' {
-    \once \override Score.MetronomeMark #'X-offset = 2
-    \once \override Score.MetronomeMark #'Y-offset = 8
-    \tempo "Allegro" 4.=132
+    \tempo 4.=132
     \clef "treble" \key c \major \time 6/8 \partial 4. g8 [ a8 g8 ]
     \repeat volta 2 {
         \once \override Score.RehearsalMark #'outside-staff-priority = #5
@@ -48,7 +45,7 @@ PartPOneVoiceOne =  \relative g' {
             c4. d8 [ e8 f8 ]
           }
           {
-            c4. g'8 a8 g8^"D.S." \bar "|."
+            c4. g'8 a8 g8_"D.S." \bar "|."
           }
         }
     }

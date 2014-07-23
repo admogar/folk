@@ -9,7 +9,7 @@
     tagline = ##f
     }
 PartPOneVoiceOne =  \relative c' {
-    \tempo "Allegretto" 4=120
+    \tempo 4=120
     \clef "treble" \key c \major \time 3/4 \partial 4 c8. [ e16 ]
     \repeat volta 2 {
         | % 1

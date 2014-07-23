@@ -3,16 +3,15 @@
 % automatically converted by musicxml2ly from Ievan Polkka.xml
 
 \header {
-    tagline=""
+    tagline=##f
     title = "Ievan Polkka (Polca da Eva)"
     subtitle = "Polca"
     composer = "Tradicional (Finlândia)"
-    poet=""
     }
 PartPOneVoiceOne =  \relative a {
     \repeat volta 2 {
         \clef "treble" \key c \major \time 2/4 | % 1
-        \tempo "Allegretto" 4=120
+        \tempo 4=120
         a8 [ d16 d16 ] d8 [ d16 e16 ] | % 2
         f16 [ f16 d8 ] d8 [ f8 ] | % 3
         e16 [ c16 c16 c16 ] c8 [ e8 ] | % 4

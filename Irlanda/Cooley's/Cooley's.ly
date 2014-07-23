@@ -3,15 +3,14 @@
 % automatically converted by musicxml2ly from Cooley's.xml
 
 \header {
-    tagline=""
+    tagline=##f
     title = "Cooley's"
     subtitle = "Reel"
     composer = "Tradicional (Irlanda)"
-    poet=""
     }
 
 PartPOneVoiceOne =  \relative d' {
-    \tempo "Prestissimo" 4=250
+    \tempo 4=250
     \clef "treble" \key g \major \numericTimeSignature\time 4/4 \partial
     8 d8 | % 1
     \repeat volta 2 {

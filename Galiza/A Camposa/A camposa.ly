@@ -3,21 +3,17 @@
 % automatically converted from A camposa.xml
 
 \header {
-    tagline=""
+    tagline=##f
     title = "A Camposa"
     subtitle = "Moinheira"
     composer = "Tradicional (Galiza)"
-    poet=""
     }
 
 PartPOneVoiceOne =  \relative g' {
-    \once \override Score.MetronomeMark #'X-offset = 2
-    \once \override Score.MetronomeMark #'Y-offset = 8
-    \tempo "Allegro" 4.=132
+    \tempo 4.=132
     \clef "treble" \key c \major \time 6/8 \partial 4. g8 [ a8 g8 ]
     \repeat volta 2 {
         | % 1
-        \once \override Score.RehearsalMark #'outside-staff-priority = #5
         \mark \markup { \small \musicglyph #"scripts.segno" } | % 1
         e8 [ c8 e8 ] d8 [ e8 d8 ] | % 2
         c8 [ e8 g8 ] c8 [ b8 a8 ] | % 3
@@ -31,7 +27,7 @@ PartPOneVoiceOne =  \relative g' {
             c4. g'8 [ a8 g8 ] }
         {
             | % 9
-            c,4. ^"Fine" c8 [ f8 d8 ] }
+            c,4.  c8^"Fine" [ f8 d8 ] }
         } \repeat volta 2 {
         | \barNumberCheck #10
         e4 c8 c8 [ f8 d8 ] | % 11

@@ -2,15 +2,14 @@
 \version "2.12.3"
 
  \header {
-    tagline=""
+    tagline=##f
     title = "Ares de Ponte Vedra"
     subtitle = "Alvorada"
     composer = "Tradicional (Galiza)"
-    poet=""
     }
 
     PartPOneVoiceOne =  \relative d' {
-    \tempo "Andante" 4=96
+    \tempo 4=96
     \clef "treble" \key c \major \time 2/4 \partial 8 d16 [ e16 ]
     \repeat volta 2 {
         | % 1

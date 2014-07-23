@@ -3,15 +3,15 @@
 % automatically converted by musicxml2ly from The Sailor's Hornpipe.xml
 
 \header {
-    tagline=""
+    tagline=##f
     title = "The Sailor's Hornpipe (Hornpipe do marinheiro)"
     subtitle = "Hornpipe"
     composer = "Tradicional (Grã-Bretanha)"
-    poet=""
     }
     
 PartPOneVoiceOne =  \relative g'' {
         \clef "treble" \key g \major \numericTimeSignature\time 4/4
+        \tempo 4=120
         \partial 4 g8 [ fis8 ] | % 1
         \repeat volta 2 {
         g4 g,4 g4 d'8 [ c8 ] | % 2
@@ -45,7 +45,7 @@ PartPOneVoiceOne =  \relative g'' {
     b4 g4 g4 d'8 [ c8 ] | % 18
       }
       {
-    b4 g4 g4_\markup{\italic {D.C.}} \bar "|."
+    b4 g4 g4_"D.C." \bar "|."
       }
     }
     }
