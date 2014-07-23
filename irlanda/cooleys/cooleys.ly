@@ -8,6 +8,10 @@
     subtitle = "Reel"
     composer = "Tradicional (Irlanda)"
     }
+    
+\paper {
+  #(set-paper-size "b5")
+}
 
 PartPOneVoiceOne =  \relative d' {
     \tempo 4=250

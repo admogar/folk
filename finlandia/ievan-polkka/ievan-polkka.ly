@@ -8,6 +8,11 @@
     subtitle = "Polca"
     composer = "Tradicional (Finlândia)"
     }
+    
+\paper {
+  #(set-paper-size "b5")
+}
+    
 PartPOneVoiceOne =  \relative a {
     \repeat volta 2 {
         \clef "treble" \key c \major \time 2/4 | % 1

@@ -7,6 +7,10 @@
     subtitle = "Alvorada"
     composer = "Tradicional (Galiza)"
     }
+    
+\paper {
+  #(set-paper-size "b5")
+}
 
     PartPOneVoiceOne =  \relative d' {
     \tempo 4=96

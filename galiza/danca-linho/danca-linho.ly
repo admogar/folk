@@ -8,6 +8,10 @@
     subtitle = "Moinheira"
     composer = "Tradicional (Galiza)"
     }
+    
+\paper {
+  #(set-paper-size "b5")
+}
 
 PartPOneVoiceOne =  \relative g' {
     \tempo 4.=132

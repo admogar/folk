@@ -9,6 +9,10 @@
     tagline=##f
     }
     
+\paper {
+  #(set-paper-size "b5")
+}
+    
 PartPOneVoiceOne =  \relative c' {
     \clef "treble" \key c \major \time 6/8 |
     \tempo 4.=220 

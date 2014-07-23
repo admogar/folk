@@ -8,6 +8,11 @@
   composer = "Tradicional (Galiza)"
     tagline = ##f
     }
+    
+\paper {
+  #(set-paper-size "b5")
+}
+
 PartPOneVoiceOne =  \relative c' {
     \tempo 4=120
     \clef "treble" \key c \major \time 3/4 \partial 4 c8. [ e16 ]

@@ -9,6 +9,10 @@
     composer = "Tradicional (Grã-Bretanha)"
     }
     
+\paper {
+  #(set-paper-size "b5")
+}
+    
 PartPOneVoiceOne =  \relative g'' {
         \clef "treble" \key g \major \numericTimeSignature\time 4/4
         \tempo 4=120

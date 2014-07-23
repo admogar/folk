@@ -6,6 +6,10 @@
     composer = "Tradicional (Galiza)"
     tagline=##f
     }
+    
+\paper {
+  #(set-paper-size "b5")
+}
 
 
 \layout {
