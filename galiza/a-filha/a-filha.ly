@@ -15,10 +15,10 @@
 PartPOneVoiceOne =  \relative d' {
         \clef "treble" \key f \major \time 3/4 | % 1
         \tempo 4=150 \partial 2 {d8 [ d8 ] d8 [ f8 ] } | % 2
-        a4 d,4. f8 | % 3
+        a4 d,4. a'8 | % 3
         a4 c4. bes8 | % 4
-        a4 e2 ~ | % 5
-        e4 a8 [ a8 ] a8 [ bes8 ] \repeat volta 2 {
+        a4 g2 ~ | % 5
+        g4 a8 [ a8 ] a8 [ bes8 ] \repeat volta 2 {
             | % 6
             a4 e4. f8 | % 7
             g4 f4. e8 }
@@ -40,7 +40,7 @@ PartPOneVoiceOne =  \relative d' {
     g4 f4 g4 | % 18
     a2. ~ | % 19
     a4 g4 _\fermata a4 _\fermata | 
-    bes2. | % 21
+    bes2 bes4~ | % 21
     bes4 c4 bes4 | % 22
     bes8 [ a8 ] a8 [ a8 ] a8 [ a8 ] | % 23
     a8 [ bes8 ] a8 [ g8 ] g8 [ g8 ] | % 24
