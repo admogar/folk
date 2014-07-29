@@ -4,7 +4,8 @@
 \header {
     title="A filha"
     subtitle="Valse"
-    composer="Tradicional (Galiza)"
+    composer="Popular (Galiza)"
+    poet="A Roda"
     tagline=##f
     }
 
