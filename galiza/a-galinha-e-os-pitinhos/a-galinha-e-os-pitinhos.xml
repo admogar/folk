@@ -4,7 +4,7 @@
   <identification>
     <encoding>
       <software>MuseScore 1.3</software>
-      <encoding-date>2014-07-27</encoding-date>
+      <encoding-date>2014-07-29</encoding-date>
       </encoding>
     </identification>
   <defaults>
@@ -373,7 +373,7 @@
         <stem>up</stem>
         <beam number="1">begin</beam>
         </note>
-      <note default-x="48.08" default-y="-50.00">
+      <note default-x="42.37" default-y="-50.00">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -389,7 +389,7 @@
           <tied type="start"/>
           </notations>
         </note>
-      <note default-x="66.58" default-y="-50.00">
+      <note default-x="59.53" default-y="-50.00">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -403,6 +403,10 @@
           <tied type="stop"/>
           </notations>
         </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
+        </barline>
       </measure>
     <measure number="9" width="102.55">
       <note>

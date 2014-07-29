@@ -17,14 +17,15 @@
 PartPOneVoiceOne =  \relative c' {
         \clef "treble" \key c \major \time 2/4
         \repeat volta 2 {
-        r8 c8 e8 [ g8 ] | % 2
-        c,8. [ c16 ~ ] c4 | % 3
-        r16 c8 [ c16 ] e8 [ g8 ] | % 4
-        d8. [ d16 ~ ] d4 | % 5
-        r8 g8 g8 [ g8 ] | % 6
-        g8. [ d8. e8 ] | % 7
-        f4 g4 | % 8
-        e8. [ c16 ~ ] c4 | % 9
+          r8 c8 e8 [ g8 ] | % 2
+          c,8. [ c16 ~ ] c4 | % 3
+          r16 c8 [ c16 ] e8 [ g8 ] | % 4
+          d8. [ d16 ~ ] d4 | % 5
+          r8 g8 g8 [ g8 ] | % 6
+          g8. [ d8. e8 ] | % 7
+          f4 g4 | % 8
+          e8. [ c16 ~ ] c4 | % 9
+        }
         r4 r8 g8 
         \repeat volta 2 {
             c8. [ c8. e8 ] | % 11
@@ -74,7 +75,6 @@ PartPOneVoiceOne =  \relative c' {
             c8 [ b8 ] | % 28
             c2_"D.C" \bar"|." }
         }
-    }
 }
 
 
