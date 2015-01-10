@@ -40,7 +40,7 @@ PartPOneVoiceOne =  \relative d' {
     g2 g4 ~ | % 17
     g4 f4 g4 | % 18
     a2. ~ | % 19
-    a4 g4 _\fermata a4 _\fermata | 
+    a4 g4 ^\fermata a4 ^\fermata |
     bes2 bes4~ | % 21
     bes4 c4 bes4 | % 22
     bes8 [ a8 ] a8 [ a8 ] a8 [ a8 ] | % 23
